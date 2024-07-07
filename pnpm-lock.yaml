@@ -14,9 +14,6 @@ importers:
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
-      prettier:
-        specifier: ^3.3.2
-        version: 3.3.2
       unplugin-swc:
         specifier: ^1.5.1
         version: 1.5.1(@swc/core@1.6.7)(rollup@4.18.0)
@@ -188,7 +185,7 @@ packages:
     os: [win32]
 
   '@heraclius/external-deps-plugin@0.1.1':
-    resolution: {integrity: sha512-BaNyPdsYIInV7FZIQbwyYAPiYKvH6T/XpEWMqAI3md6763267LFIQPLVK8Wc2v9iYJsO65ZSNduzLRgXGdb1qQ==, tarball: https://registry.npmjs.org/@heraclius/external-deps-plugin/-/external-deps-plugin-0.1.1.tgz}
+    resolution: {integrity: sha512-BaNyPdsYIInV7FZIQbwyYAPiYKvH6T/XpEWMqAI3md6763267LFIQPLVK8Wc2v9iYJsO65ZSNduzLRgXGdb1qQ==}
     peerDependencies:
       vite: ^5.3.3
 
@@ -780,11 +777,6 @@ packages:
   postcss@8.4.39:
     resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
     engines: {node: ^10 || ^12 || >=14}
-
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
-    engines: {node: '>=14'}
-    hasBin: true
 
   pretty-format@29.7.0:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
@@ -1697,8 +1689,6 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.0.1
       source-map-js: 1.2.0
-
-  prettier@3.3.2: {}
 
   pretty-format@29.7.0:
     dependencies:
